@@ -1,0 +1,19 @@
+$background: #424242;
+$primary: #1de9b6;
+$secondary: #87e4cd;
+$info: #377c62;
+$table_font: #cdcbcb;
+$table_border: #b5b5b5;
+$error: #f12f69;
+$success: #128f31;
+
+:export {
+  background: $background;
+  primary: $primary;
+  secondary: $secondary;
+  info: $info;
+  table_font: $table_font;
+  table_border: $table_border;
+  error: $error;
+  success: $success;
+}

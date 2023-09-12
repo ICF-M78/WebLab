@@ -1,0 +1,23 @@
+$background: #eeeeee;
+$primary: #037953;
+$secondary: #3f6c40;
+$info: #38825d;
+$accent: #a0a0a0;
+$table_font: #a0a0a0;
+$table_border: #e0e0e0;
+$cur_tr: #bfedc7;
+$error: #f12f69;
+$success: #0fa334;
+
+:export {
+  background: $background;
+  primary: $primary;
+  secondary: $secondary;
+  info: $info;
+  accent: $accent;
+  table_font: $table_font;
+  table_border: $table_border;
+  cur_tr: $cur_tr;
+  error: $error;
+  success: $success;
+}

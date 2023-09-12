@@ -1,0 +1,50 @@
+@import "../assets/vuetify/scss/light.module.scss";
+
+table {
+    white-space: nowrap;
+
+    tr {
+        th {
+            border-top: $table_border 1px solid;
+            color: $accent !important;
+            height: 32px !important;
+            font-weight: 50 !important;
+        }
+
+        th,
+        td {
+            border-right: 1px solid $table_border;
+            padding: 2px 4px !important;
+        }
+
+        th:first-child,
+        td:first-child {
+            border-left: 1px solid $table_border;
+        }
+    }
+
+    tr:last-child {
+        td {
+            border-bottom: 1px solid $table_border;
+        }
+    }
+}
+
+html {
+    overflow-y: auto !important;
+}
+
+::-webkit-scrollbar {
+    height: 2px !important;
+    width: 2px !important;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background: $background;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: radial-gradient($primary, $background);
+}
